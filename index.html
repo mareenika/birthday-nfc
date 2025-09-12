@@ -81,7 +81,18 @@
   <details><summary>Antwort anzeigen</summary>💪 Aber es hat keiner abgenommen.</details>
 </details>
 
-  <details><summary>11) Aufdecken</summary>🔊  <a href="https://youtu.be/2ViZqQkddCc?si=Ou0e5GdVRQr1NCTt" target="_blank">Trommelwirbel anhören</a></details>
+ <details id="task11">
+  <summary>11) Aufdecken</summary>
+</details>
+
+<script>
+  document.getElementById("task11").addEventListener("toggle", e => {
+    if (e.target.open) {
+      window.open("https://youtu.be/2ViZqQkddCc?si=Ou0e5GdVRQr1NCTt", "_blank");
+    }
+  });
+</script>
+  
   <details><summary>12) Aufdecken</summary>🔊 <a href="https://youtu.be/0abfTrxjX-4" target="_blank">Katzen-Miauen im Chor</a></details>
   <details><summary>13) Aufdecken</summary>🔊 <a href="https://youtu.be/uRDPSd8rgAw" target="_blank">Schrilles „Happy Birthday“ gesungen hören</a></details>
   <details><summary>14) Aufdecken</summary>🔊 <a href="https://youtu.be/P3hNFofyHK0" target="_blank">Publikums-Applaus abspielen</a></details>
